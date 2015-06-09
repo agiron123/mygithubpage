@@ -1,0 +1,11 @@
+# Site settings
+title: Andre S. Giron
+email: agiron123@gmail.com
+description: Personal site of Andre Giron.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://andregiron.me" # the base hostname & protocol for your site
+twitter_username: agiron_78
+github_username:  agiron123
+
+# Build settings
+markdown: kramdown
