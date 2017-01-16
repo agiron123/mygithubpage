@@ -1,0 +1,14 @@
+- name: JavaScript
+  image: ./assets/images/logos/languages/js.jpg
+
+- name: HTML
+  image: ./assets/images/logos/languages/html-logo.png
+
+- name: CSS
+  image: ./assets/images/logos/languages/css-logo.png
+
+- name: Java
+  image: ./assets/images/logos/languages/java.jpg
+
+- name: C#
+  image: http://placehold.it/100x100

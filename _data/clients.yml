@@ -1,0 +1,7 @@
+- name: FOSSA
+  image: ./assets/images/logos/clients/fossa.svg
+  link: http://fossa.io/
+
+- name: Bommer
+  image: ./assets/images/logos/clients/bommer.png
+  link: http://bommer.io/

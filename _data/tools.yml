@@ -1,0 +1,11 @@
+- name: Tool1
+  image: http://placehold.it/100x100
+
+- name: Tool2
+  image: http://placehold.it/100x100
+
+- name: Tool3
+  image: http://placehold.it/100x100
+
+- name: Tool4
+  image: http://placehold.it/100x100

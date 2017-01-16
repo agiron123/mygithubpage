@@ -1,0 +1,14 @@
+- name: NodeJS
+  image: ./assets/images/logos/frameworks/nodejs.png
+
+- name: Sequelize
+  image: ./assets/images/logos/frameworks/sequelize.png
+
+- name: Webpack
+  image: ./assets/images/logos/frameworks/webpack.png
+
+- name: Mocha
+  image: ./assets/images/logos/frameworks/mocha.svg
+
+- name: Jasmine
+  image: ./assets/images/logos/frameworks/jasmine.png

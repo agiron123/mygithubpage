@@ -1,0 +1,11 @@
+- name: Database1
+  image: http://placehold.it/100x100
+
+- name: Database2
+  image: http://placehold.it/100x100
+
+- name: Database3
+  image: http://placehold.it/100x100
+
+- name: Database4
+  image: http://placehold.it/100x100

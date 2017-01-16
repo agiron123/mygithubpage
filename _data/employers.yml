@@ -1,0 +1,11 @@
+- name: Microsoft
+  image: ./assets/images/logos/employers/microsoft.jpg
+  link: http://fossa.io/
+
+- name: NCR
+  image: ./assets/images/logos/employers/ncr.jpg
+  link: http://ncr.com/
+
+- name: BetterCloud
+  image: ./assets/images/logos/employers/bettercloud.png
+  link: https://www.bettercloud.com/
