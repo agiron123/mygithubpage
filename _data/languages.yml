@@ -11,4 +11,4 @@
   image: ./assets/images/logos/languages/java.jpg
 
 - name: C#
-  image: http://placehold.it/100x100
+  image: ./assets/images/logos/languages/visualstudio.png

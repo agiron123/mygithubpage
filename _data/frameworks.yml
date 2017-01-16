@@ -12,3 +12,39 @@
 
 - name: Jasmine
   image: ./assets/images/logos/frameworks/jasmine.png
+
+- name: AngularJS
+  image: ./assets/images/logos/frameworks/angular.png
+
+- name: React
+  image: ./assets/images/logos/frameworks/react.png
+
+- name: Spring Boot
+  image: ./assets/images/logos/frameworks/springboot.png
+
+- name: JUnit
+  image: ./assets/images/logos/frameworks/junit.png
+
+- name: Mockito
+  image: ./assets/images/logos/frameworks/mockito.png
+
+- name: ASP.net MVC
+  image: ./assets/images/logos/frameworks/microsoft-square.jpg
+
+- name: ASP.net WebAPI
+  image: ./assets/images/logos/frameworks/microsoft-square.jpg
+
+- name: Moq
+  image: ./assets/images/logos/frameworks/moq.png
+
+- name: Castle Windsor
+  image: ./assets/images/logos/frameworks/castlewindsor.png
+
+- name: UWP Applications
+  image: ./assets/images/logos/frameworks/microsoft-square.jpg
+
+- name: Windows Phone
+  image: ./assets/images/logos/frameworks/windowsphone.png
+
+- name: Android
+  image: ./assets/images/logos/frameworks/android.png

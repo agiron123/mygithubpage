@@ -13,6 +13,10 @@
     width: 360px;
 }
 
+.btn-container {
+    margin-top: 25px;
+}
+
 .title-pic {
   width: 400px;
   margin-left: auto;

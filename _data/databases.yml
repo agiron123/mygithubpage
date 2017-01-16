@@ -1,11 +1,23 @@
-- name: Database1
-  image: http://placehold.it/100x100
+- name: MySQL
+  image: ./assets/images/logos/databases/mysql.png
 
-- name: Database2
-  image: http://placehold.it/100x100
+- name: Postgres
+  image: ./assets/images/logos/databases/postgres.png
 
-- name: Database3
-  image: http://placehold.it/100x100
+- name: Microsoft SQL Server
+  image: ./assets/images/logos/databases/MicrosoftSQLServer.png
 
-- name: Database4
-  image: http://placehold.it/100x100
+- name: Couchbase
+  image: ./assets/images/logos/databases/couchbase.gif
+
+- name: Kafka
+  image: ./assets/images/logos/databases/kafka.jpg
+
+- name: Elasticsearch
+  image: ./assets/images/logos/databases/elasticsearch.png
+
+- name: Kibana
+  image: ./assets/images/logos/databases/kibana.png
+
+- name: Logstash
+  image: ./assets/images/logos/databases/logstash.png

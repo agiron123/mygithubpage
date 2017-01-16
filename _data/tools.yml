@@ -1,11 +1,14 @@
-- name: Tool1
-  image: http://placehold.it/100x100
+- name: Git
+  image: ./assets/images/logos/tools/git.png
 
-- name: Tool2
-  image: http://placehold.it/100x100
+- name: Circle CI
+  image: ./assets/images/logos/tools/circleci.png
 
-- name: Tool3
-  image: http://placehold.it/100x100
+- name: Docker
+  image: ./assets/images/logos/tools/docker.png
 
-- name: Tool4
-  image: http://placehold.it/100x100
+- name: Vagrant
+  image: ./assets/images/logos/tools/vagrant.png
+
+- name: TeamCity
+  image: ./assets/images/logos/tools/teamcity.png
