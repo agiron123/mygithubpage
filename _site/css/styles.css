@@ -26,3 +26,16 @@
 .title-pic img {
   padding-left: 50px;
 }
+
+.button-group-member {
+  display: inline-block;
+  float:left;
+  width: 50%;
+}
+
+.button-group-styles {
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
