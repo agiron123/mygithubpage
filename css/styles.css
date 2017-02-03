@@ -1,7 +1,24 @@
+@font-face {
+  font-family: "CF-Showbizz";
+  src: url("../assets/fonts/CFShowbizz-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Archer-Semibold-Pro";
+  src: url("../assets/fonts/Archer-Semibold-Pro.otf") format("opentype");
+}
+
+.tagline {
+  text-align: center;
+  font-family: "CF-Showbizz";
+}
+
 .content-text {
   margin-left: auto;
   margin-right: auto;
+  font-family: "Archer-Semibold-Pro";
 }
+
 .post-article{
     width: 800px;
     margin-left: auto;
@@ -13,11 +30,11 @@
 }
 
 .title-pic {
-  width: 400px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.title-pic img {
-  padding-left: 50px;
+.nav-header {
+  background-color: #9fc1ec;
 }
