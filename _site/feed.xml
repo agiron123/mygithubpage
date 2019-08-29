@@ -3,11 +3,37 @@
   <channel>
     <title>Andre S. Giron</title>
     <description>Made with &lt;3 in Atlanta, GA</description>
-    <link>http://localhost:4001/</link>
-    <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Jul 2019 00:59:09 -0400</pubDate>
-    <lastBuildDate>Wed, 10 Jul 2019 00:59:09 -0400</lastBuildDate>
+    <link>http://andregiron.me/</link>
+    <atom:link href="http://andregiron.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 29 Aug 2019 17:12:24 -0400</pubDate>
+    <lastBuildDate>Thu, 29 Aug 2019 17:12:24 -0400</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
+    
+      <item>
+        <title>Consistently Create</title>
+        <description>&lt;p&gt;Writing sucks. I have all these great ideas in my head, but can never seem to get them out on paper.&lt;/p&gt;
+
+&lt;p&gt;When I finally do sit down to write, I choke and freeze up on the keyboard, or forget how to use a pen entirely.
+I’ve been spending a lot of time thinking about this, and why the creative process can be a little tough for me.
+As a software developer, I actually do a ton of creative type work, so getting into the flow and slinging lots of code and
+eventually putting together a kickass product is nothing new to me. So why is writing so hard?&lt;/p&gt;
+
+&lt;p&gt;The answer is actually pretty simple. I code every day all day. Yet I don’t write every day.&lt;/p&gt;
+
+&lt;p&gt;The difference between my coding and writing is just consistency. I’ve invested thousands of hours to hone in my craft as a programmer, yet I cannot say the same about writing.&lt;/p&gt;
+
+&lt;p&gt;Here’s to starting to write more regularly and consistently creating. I hope that you can join me on this journey as well.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Jun 2019 20:00:00 -0400</pubDate>
+        <link>http://andregiron.me/writing/creativity/2019/06/07/consistently-create.html</link>
+        <guid isPermaLink="true">http://andregiron.me/writing/creativity/2019/06/07/consistently-create.html</guid>
+        
+        
+        <category>writing</category>
+        
+        <category>creativity</category>
+        
+      </item>
     
       <item>
         <title>Dear Self</title>
@@ -72,8 +98,8 @@ Happy birthday self. Stop worrying. Things will be okay. I love you.&lt;/p&gt;
 &lt;p&gt;P.S. Let’s keep OP’s sexuality out of this conversation. It’s 2015!&lt;/p&gt;
 </description>
         <pubDate>Thu, 10 Dec 2015 19:00:00 -0500</pubDate>
-        <link>http://localhost:4001/birthday/life/2015/12/10/23-dear-self.html</link>
-        <guid isPermaLink="true">http://localhost:4001/birthday/life/2015/12/10/23-dear-self.html</guid>
+        <link>http://andregiron.me/birthday/life/2015/12/10/23-dear-self.html</link>
+        <guid isPermaLink="true">http://andregiron.me/birthday/life/2015/12/10/23-dear-self.html</guid>
         
         
         <category>birthday</category>
@@ -100,8 +126,8 @@ Happy birthday self. Stop worrying. Things will be okay. I love you.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 08 Jun 2015 06:06:12 -0400</pubDate>
-        <link>http://localhost:4001/jekyll/update/2015/06/08/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4001/jekyll/update/2015/06/08/welcome-to-jekyll.html</guid>
+        <link>http://andregiron.me/jekyll/update/2015/06/08/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://andregiron.me/jekyll/update/2015/06/08/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
