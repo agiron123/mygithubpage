@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Consistently Create"
-date:   2010-06-08 00:00:00
+date:   2019-06-08 00:00:00
 categories: writing creativity
 ---
 
