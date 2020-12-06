@@ -3,11 +3,43 @@
   <channel>
     <title>Andre S. Giron</title>
     <description>Made with &lt;3 in Atlanta, GA</description>
-    <link>http://localhost:4001/</link>
-    <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Aug 2019 18:28:57 -0400</pubDate>
-    <lastBuildDate>Thu, 29 Aug 2019 18:28:57 -0400</lastBuildDate>
-    <generator>Jekyll v3.8.4</generator>
+    <link>http://andregiron.me/</link>
+    <atom:link href="http://andregiron.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 06 Dec 2020 13:24:31 -0800</pubDate>
+    <lastBuildDate>Sun, 06 Dec 2020 13:24:31 -0800</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Dear Santa</title>
+        <description>&lt;p&gt;Dear Santa,&lt;/p&gt;
+
+&lt;p&gt;I know that I’m a big kid already, but people keep asking me what I want for Christmas this year. I would love for you to pass this letter onto them.
+As of right now I am 27 years old and will turn 28 by the time Christmas happens in 2020. Before you try to deliver my presents to Atlanta this year, I wanted to remind you that I’ve moved to San Francisco this year.
+It’s really nice out here as you may know already! Unfortunately due to the pandemic going on right now I cannot leave out milk and cookies for you as usual. Don’t worry though, I’ll leave out a nice goodie bag for you with individually wrapped treats and some hand sanitizer. Now that wwe got everything out of the way, let’s talk about what I would like for Christmas this year.&lt;/p&gt;
+
+&lt;h4 id=&quot;apples-new-mac-mini&quot;&gt;Apple’s New Mac Mini&lt;/h4&gt;
+&lt;p&gt;This year, Apple did something really special and released a new Mac Mini featuring a processor that Apple designed themselves. It’s really fast, and really new so not a lot of software runs on it yet, but don’t worry Santa, if you get me one, I’ll help out and help bring more software to these new machines. If you don’t know which model to get me, it’s pretty easy. I’d like the one with the most RAM and storage you can get me. I’m not picky though, so you can get me whatever model yoru elves can build this year.&lt;/p&gt;
+
+&lt;h4 id=&quot;new-clothes&quot;&gt;New Clothes&lt;/h4&gt;
+&lt;p&gt;I know Santa! This is crazy! All those years when hyou got me clothes, and I wasn’t so excited … well this year I’d love some new clothes and really want to start dressing like an adult. Some nice dress shirts would be awesome. I’d also like some new pairs of jeans and Chinos. My jeans have broken zippers and holes, so please get me new clothes over that silly Mac Mini. I’m not really sure what size clothes to get me this year, so you might want to get me a gift card or something. Due to the quarantine I may be a little more jolly this year just like you!&lt;/p&gt;
+
+&lt;h4 id=&quot;kitchen-ware&quot;&gt;Kitchen Ware&lt;/h4&gt;
+&lt;p&gt;I’d like to also maybe get some better kitchen supplies as well Santa. I know this is a lot to ask for, and you are busy with getting toys for all the kids, but I’m sure Mrs. Claus could help youu figure out some nice things for my kitchen. I’d really like a nice cutting board and maybe a nice knife for cutting vegetables. A nice new frying pan or cast iron pan would be awesome as well.&lt;/p&gt;
+
+&lt;p&gt;I know this letter is a little long, but I just wanted to let you know what was on my mind this Christmas. Please take care of the children first this year Santa. THey need all the gifts, love and Christmas cheer they can get. You might not notice it on the North Pole, but it’s been a crazy year this year.&lt;/p&gt;
+
+&lt;p&gt;Thanks,&lt;/p&gt;
+
+&lt;p&gt;Andre&lt;/p&gt;
+</description>
+        <pubDate>Sat, 05 Dec 2020 16:00:00 -0800</pubDate>
+        <link>http://andregiron.me/christmas/2020/12/06/dear-santa.html</link>
+        <guid isPermaLink="true">http://andregiron.me/christmas/2020/12/06/dear-santa.html</guid>
+        
+        
+        <category>christmas</category>
+        
+      </item>
     
       <item>
         <title>Consistently Create</title>
@@ -24,9 +56,9 @@ eventually putting together a kickass product is nothing new to me. So why is wr
 
 &lt;p&gt;Here’s to starting to write more regularly and consistently creating. I hope that you can join me on this journey as well.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 07 Jun 2019 20:00:00 -0400</pubDate>
-        <link>http://localhost:4001/writing/creativity/2019/06/07/consistently-create.html</link>
-        <guid isPermaLink="true">http://localhost:4001/writing/creativity/2019/06/07/consistently-create.html</guid>
+        <pubDate>Fri, 07 Jun 2019 17:00:00 -0700</pubDate>
+        <link>http://andregiron.me/writing/creativity/2019/06/08/consistently-create.html</link>
+        <guid isPermaLink="true">http://andregiron.me/writing/creativity/2019/06/08/consistently-create.html</guid>
         
         
         <category>writing</category>
@@ -97,9 +129,9 @@ Happy birthday self. Stop worrying. Things will be okay. I love you.&lt;/p&gt;
 
 &lt;p&gt;P.S. Let’s keep OP’s sexuality out of this conversation. It’s 2015!&lt;/p&gt;
 </description>
-        <pubDate>Thu, 10 Dec 2015 19:00:00 -0500</pubDate>
-        <link>http://localhost:4001/birthday/life/2015/12/10/23-dear-self.html</link>
-        <guid isPermaLink="true">http://localhost:4001/birthday/life/2015/12/10/23-dear-self.html</guid>
+        <pubDate>Thu, 10 Dec 2015 16:00:00 -0800</pubDate>
+        <link>http://andregiron.me/birthday/life/2015/12/11/23-dear-self.html</link>
+        <guid isPermaLink="true">http://andregiron.me/birthday/life/2015/12/11/23-dear-self.html</guid>
         
         
         <category>birthday</category>
