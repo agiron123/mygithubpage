@@ -11,7 +11,7 @@ I know that I'm a big kid already, but people keep asking me what I want for Chr
 As of right now I am 27 years old and will turn 28 by the time Christmas happens in 2020. Before you try to deliver my presents to Atlanta this year, I wanted to remind you that I've moved to San Francisco this year.
 It's really nice out here as you may know already! Unfortunately due to the pandemic going on right now I cannot leave out milk and cookies for you as usual. Don't worry though, I'll leave out a nice goodie bag for you with individually wrapped treats and some hand sanitizer. Now that wwe got everything out of the way, let's talk about what I would like for Christmas this year.
 
-#### Apple's New Mac Mini ###
+#### Apple's New Mac Mini
 This year, Apple did something really special and released a new Mac Mini featuring a processor that Apple designed themselves. It's really fast, and really new so not a lot of software runs on it yet, but don't worry Santa, if you get me one, I'll help out and help bring more software to these new machines. If you don't know which model to get me, it's pretty easy. I'd like the one with the most RAM and storage you can get me. I'm not picky though, so you can get me whatever model yoru elves can build this year.
 
 #### New Clothes
