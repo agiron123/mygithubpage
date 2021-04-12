@@ -5,13 +5,8 @@
     <description>Made with &lt;3 in San Francisco, CA</description>
     <link>http://andregiron.me/</link>
     <atom:link href="http://andregiron.me/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-    <pubDate>Mon, 12 Apr 2021 12:48:12 -0700</pubDate>
-    <lastBuildDate>Mon, 12 Apr 2021 12:48:12 -0700</lastBuildDate>
-=======
-    <pubDate>Mon, 12 Apr 2021 12:29:29 -0700</pubDate>
-    <lastBuildDate>Mon, 12 Apr 2021 12:29:29 -0700</lastBuildDate>
->>>>>>> 8e74f4ac90751de31d183f8cad12d7cdc0ff2e45
+    <pubDate>Mon, 12 Apr 2021 12:53:42 -0700</pubDate>
+    <lastBuildDate>Mon, 12 Apr 2021 12:53:42 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
