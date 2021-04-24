@@ -95,8 +95,6 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-    position: absolute; 
-    bottom: 0;
     width: 100%
 }
 
@@ -167,6 +165,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    min-height: 100vh;
 }
 
 .page-heading {
