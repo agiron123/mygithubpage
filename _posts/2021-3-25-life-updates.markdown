@@ -19,8 +19,6 @@ My team is responsible for the withjoy.com website before you log into the app a
 I can't believe it's been a year already, but I've been working a year at Joy as a full time employee. Prior to being a full time employee at Joy, I worked with the team at Joy for about six months as a contractor.
 
 # Other fun stuff:
-* I've been together with my girlfriend Korie for four years now.
-* We've got two corgis too! Elton and Freddie. I can't tell who I love more, Korie or the dogs :) Just kidding, I love Korie a whole lot and she means the world to me. Elton and Freddie are amazing doggos as well. Both Korie and the dogs bring great joy to my life.
 * Right before moving to San Francisco, I got really into fishkeeping.
 I had a reef tank (Red Sea Reefer 170), and had a really awesome coral reef at home. Unfortunately I had to tear down my tank to move across the country. It's still in storage in Atlanta, and will be put to use as soon as I can do so out here.
 
