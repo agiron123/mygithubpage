@@ -2,7 +2,7 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ "gh-pages" ]
+    branches: [ "astro-port", "gh-pages" ]
 
 jobs:
   build:
@@ -16,3 +16,9 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+    - name: Build the Astro project in a node container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}/astro:/astro \
+        -w /astro \
+        node:latest /bin/bash -c "npm install && npm run build"
