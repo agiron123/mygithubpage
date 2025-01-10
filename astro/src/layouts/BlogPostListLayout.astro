@@ -1,0 +1,79 @@
+---
+import Layout from "./Layout.astro";
+const { frontmatter } = Astro.props;
+---
+<Layout pageTitle="Blog">
+    <div class="page-content">
+        <div class="wrapper">
+            <div class="home">
+                <h1 class="page-heading">Posts</h1>
+
+                <ul class="post-list">
+                    <li>
+                        <span class="post-meta">Nov 27, 2021</span>
+
+                        <h2>
+                            <a
+                                class="post-link"
+                                href="/programming,/dev-tools/2021/11/27/codespaces.html"
+                                >Codespaces</a
+                            >
+                        </h2>
+                    </li>
+
+                    <li>
+                        <span class="post-meta">Mar 26, 2021</span>
+
+                        <h2>
+                            <a
+                                class="post-link"
+                                href="/now/2021/03/26/life-updates.html"
+                                >Life Updates (/now)</a
+                            >
+                        </h2>
+                    </li>
+
+                    <li>
+                        <span class="post-meta">Dec 6, 2020</span>
+
+                        <h2>
+                            <a
+                                class="post-link"
+                                href="/christmas/2020/12/06/dear-santa.html"
+                                >Dear Santa</a
+                            >
+                        </h2>
+                    </li>
+
+                    <li>
+                        <span class="post-meta">Jun 8, 2019</span>
+
+                        <h2>
+                            <a
+                                class="post-link"
+                                href="/writing/creativity/2019/06/08/consistently-create.html"
+                                >Consistently Create</a
+                            >
+                        </h2>
+                    </li>
+
+                    <li>
+                        <span class="post-meta">Dec 11, 2015</span>
+
+                        <h2>
+                            <a
+                                class="post-link"
+                                href="/birthday/life/2015/12/11/23-dear-self.html"
+                                >Dear Self</a
+                            >
+                        </h2>
+                    </li>
+                </ul>
+
+                <p class="rss-subscribe">
+                    subscribe <a href="/feed.xml">via RSS</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</Layout>
