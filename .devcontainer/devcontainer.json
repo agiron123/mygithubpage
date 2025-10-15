@@ -1,0 +1,34 @@
+{
+  "name": "Jekyll Dev Container",
+  "image": "jekyll/jekyll:4.3.2",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bradlc.vscode-tailwindcss",
+        "ms-vscode.vscode-json",
+        "redhat.vscode-yaml",
+        "ms-vscode.vscode-markdown",
+        "ms-vscode.vscode-typescript-next"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "forwardPorts": [4001, 4000],
+  "portsAttributes": {
+    "4001": {
+      "label": "Jekyll (config port)",
+      "onAutoForward": "notify"
+    },
+    "4000": {
+      "label": "Jekyll (default port)",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "bundle install",
+  "remoteUser": "jekyll"
+}
