@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  jekyll:
+    build: .
+    ports:
+      - "4001:4001"
+      - "35729:35729"  # LiveReload port
+    volumes:
+      - .:/srv/jekyll
+      - jekyll_bundle:/usr/local/bundle
+    environment:
+      - JEKYLL_ENV=development
+    command: bundle exec jekyll serve --host 0.0.0.0 --port 4001 --livereload --force_polling
+
+volumes:
+  jekyll_bundle:
