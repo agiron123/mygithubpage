@@ -1,0 +1,23 @@
+# Git files
+.git
+.gitignore
+
+# Jekyll build output
+_site
+.sass-cache
+.jekyll-metadata
+.jekyll-cache
+
+# IDE files
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies (will be installed in container)
+vendor/
+.bundle/

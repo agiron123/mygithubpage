@@ -97,3 +97,8 @@ _site/
 .jekyll-cache
 
 # End of https://www.gitignore.io/api/jekyll
+
+# Ruby/Bundler
+Gemfile.lock
+vendor/
+.bundle/
