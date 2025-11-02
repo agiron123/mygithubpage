@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "CF-Showbizz";
+  src: url("/assets/fonts/CFShowbizz-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Archer-Semibold-Pro";
+  src: url("/assets/fonts/Archer-Semibold-Pro.otf") format("opentype");
+}
+
+body {
+  font-family: "Archer-Semibold-Pro", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #1f2933;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover,
+a:focus {
+  color: #1d4ed8;
+}
+
+.site-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.tagline {
+  text-align: center;
+  font-family: "CF-Showbizz", cursive;
+}
+
+.content-text {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60ch;
+  line-height: 1.7;
+}
+
+.post-article {
+  width: min(800px, 92vw);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-gallery {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+@media (min-width: 768px) {
+  .project-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.project-gallery figure {
+  margin: 0;
+  text-align: center;
+}
+
+.project-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+#sports-carousel {
+  width: 360px;
+}
+
+.title-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 9999px;
+}
+
+.site-header,
+.site-footer {
+  background-color: #9fc1ec;
+}
+
+.site-header .inner,
+.site-footer .inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-text {
+  color: #58585a;
+}
+
+.footer-columns {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .footer-columns {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+main {
+  padding: 2rem 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "CF-Showbizz", "Archer-Semibold-Pro", serif;
+  line-height: 1.2;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  margin-top: 2rem;
+}
+
+article p,
+article ul,
+article ol {
+  line-height: 1.8;
+}
