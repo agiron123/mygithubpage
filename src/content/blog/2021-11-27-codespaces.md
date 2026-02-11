@@ -1,8 +1,6 @@
 ---
-layout: post
 title:  "Codespaces"
 date:   2021-11-27
-categories: programming, dev-tools
 ---
 
 GitHub Codespaces are finally out of beta and I'm super excited to be able to try them out in my day to day workflow.

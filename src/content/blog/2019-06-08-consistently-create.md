@@ -1,8 +1,6 @@
 ---
-layout: post
 title:  "Consistently Create"
 date:   2019-06-08 00:00:00
-categories: writing creativity
 ---
 
 Writing sucks. I have all these great ideas in my head, but can never seem to get them out on paper.

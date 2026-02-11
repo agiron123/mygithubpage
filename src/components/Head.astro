@@ -1,0 +1,24 @@
+---
+import { SITE } from "../site";
+
+const { title = SITE.title, description = SITE.description } = Astro.props;
+const canonical = new URL(Astro.url?.pathname ?? "", SITE.url).toString();
+---
+
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>{title}</title>
+<meta name="description" content={description} />
+
+<link rel="stylesheet" href="/css/styles.css" />
+<link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css" />
+
+<link rel="canonical" href={canonical} />
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  title={SITE.title}
+  href="/rss.xml"
+/>

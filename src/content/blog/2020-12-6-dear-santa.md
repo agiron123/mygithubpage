@@ -1,8 +1,6 @@
 ---
-layout: post
 title:  "Dear Santa"
 date:   2020-12-06 00:00:00
-categories: christmas
 ---
 
 Dear Santa,

@@ -1,33 +1,45 @@
-This is my personal website.
-I decided to take this on as a little project over the holiday break.
+This is my personal website, now built with Astro.
 
-## Development with Docker
-
-This site can be developed locally using Docker. This ensures a consistent development environment regardless of your local setup.
+## Local development
 
 ### Prerequisites
 
-- [Docker](https://docs.docker.com/get-docker/)
-- [Docker Compose](https://docs.docker.com/compose/install/) (usually included with Docker Desktop)
+- Node.js 18+ (or 20+ recommended)
+- npm
 
-### Quick Start
+### Quick start
 
-1. Clone the repository:
+1. Install dependencies:
    ```bash
-   git clone https://github.com/agiron123/mygithubpage.git
-   cd mygithubpage
+   npm install
    ```
 
-2. Start the development server:
+2. Start the dev server:
    ```bash
-   docker-compose up
+   npm run dev -- --port 4001
    ```
 
 3. Open your browser and navigate to `http://localhost:4001`
 
-The site will automatically reload when you make changes to your files.
+## Development with Docker
 
-### Docker Commands
+This site can be developed locally using Docker.
+
+### Prerequisites
+
+- Docker
+- Docker Compose
+
+### Quick start
+
+1. Build and start the dev server:
+   ```bash
+   docker-compose up
+   ```
+
+2. Open your browser and navigate to `http://localhost:4001`
+
+### Docker commands
 
 - **Start the development server**:
   ```bash
@@ -53,16 +65,3 @@ The site will automatically reload when you make changes to your files.
   ```bash
   docker-compose logs -f
   ```
-
-### Alternative: Using Docker directly
-
-If you prefer to use Docker without Docker Compose:
-
-```bash
-# Build the image
-docker build -t jekyll-site .
-
-# Run the container
-docker run -p 4001:4001 -p 35729:35729 -v $(pwd):/srv/jekyll jekyll-site
-```
-

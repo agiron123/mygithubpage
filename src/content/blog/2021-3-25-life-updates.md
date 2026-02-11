@@ -1,8 +1,6 @@
 ---
-layout: post
 title:  "Life Updates (/now)"
 date:   2021-03-26 17:35:00
-categories: now
 ---
 
 It has been a while since I have posted an update on my life here.
