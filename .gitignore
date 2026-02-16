@@ -106,7 +106,4 @@ vendor/
 # Node/Astro
 node_modules/
 .astro/
-
-# Node/Astro
-node_modules/
-.astro/
+dist/
