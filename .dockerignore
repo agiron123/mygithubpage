@@ -18,6 +18,12 @@ _site
 .DS_Store
 Thumbs.db
 
-# Dependencies (will be installed in container)
+# Dependencies/build outputs (installed/generated in container)
+node_modules/
+dist/
+.astro/
+npm-debug.log*
+
+# Legacy Ruby/Jekyll dependencies
 vendor/
 .bundle/

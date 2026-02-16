@@ -102,3 +102,8 @@ _site/
 Gemfile.lock
 vendor/
 .bundle/
+
+# Node/Astro
+node_modules/
+.astro/
+dist/
