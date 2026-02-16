@@ -1,0 +1,29 @@
+@use "sass:color";
+
+// Typography
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size: 16px;
+$small-font-size: $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+// Spacing
+$spacing-unit: 30px;
+
+// Colors
+$text-color: #111;
+$background-color: #fdfdfd;
+$brand-color: #3e82da;
+$grey-color: #58585a;
+$grey-color-light: color.adjust($grey-color, $lightness: 40%);
+$grey-color-dark: color.adjust($grey-color, $lightness: -25%);
+
+// Layout
+$content-width: 800px;
+$on-palm: 600px;
+$on-laptop: 800px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}

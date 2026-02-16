@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 /**
  * Site header
  */
@@ -113,7 +115,12 @@
     font-size: 15px;
     color: $grey-color;
     margin-left: calc(-1 * $spacing-unit / 2);
-    @extend %clearfix;
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 }
 
 .footer-col {
