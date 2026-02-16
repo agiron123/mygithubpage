@@ -1,6 +1,6 @@
 ---
-title:  "Codespaces"
-date:   2021-11-27
+title: "Codespaces"
+date: 2021-11-27
 ---
 
 GitHub Codespaces are finally out of beta and I'm super excited to be able to try them out in my day to day workflow.

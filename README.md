@@ -10,11 +10,13 @@ This is my personal website, now built with Astro.
 ### Quick start
 
 1. Install dependencies:
+
    ```bash
    npm install
    ```
 
 2. Start the dev server:
+
    ```bash
    npm run dev -- --port 4001
    ```
@@ -33,6 +35,7 @@ This site can be developed locally using Docker.
 ### Quick start
 
 1. Build and start the dev server:
+
    ```bash
    docker-compose up
    ```
@@ -42,21 +45,25 @@ This site can be developed locally using Docker.
 ### Docker commands
 
 - **Start the development server**:
+
   ```bash
   docker-compose up
   ```
 
 - **Start in detached mode** (runs in background):
+
   ```bash
   docker-compose up -d
   ```
 
 - **Stop the server**:
+
   ```bash
   docker-compose down
   ```
 
 - **Rebuild the Docker image** (after changing dependencies):
+
   ```bash
   docker-compose build
   ```

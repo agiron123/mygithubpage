@@ -1,6 +1,6 @@
 ---
-title:  "Consistently Create"
-date:   2019-06-08 00:00:00
+title: "Consistently Create"
+date: 2019-06-08 00:00:00
 ---
 
 Writing sucks. I have all these great ideas in my head, but can never seem to get them out on paper.
@@ -13,6 +13,5 @@ eventually putting together a kickass product is nothing new to me. So why is wr
 The answer is actually pretty simple. I code every day all day. Yet I don't write every day.
 
 The difference between my coding and writing is just consistency. I've invested thousands of hours to hone in my craft as a programmer, yet I cannot say the same about writing.
-
 
 Here's to starting to write more regularly and consistently creating. I hope that you can join me on this journey as well.
