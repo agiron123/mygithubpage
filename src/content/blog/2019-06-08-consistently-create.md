@@ -1,6 +1,7 @@
 ---
 title: "Consistently Create"
 date: 2019-06-08 00:00:00
+description: "Why writing feels hard when coding feels natural — and how consistency is the only real difference between the two."
 ---
 
 Writing sucks. I have all these great ideas in my head, but can never seem to get them out on paper.

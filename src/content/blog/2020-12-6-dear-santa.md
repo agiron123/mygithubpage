@@ -1,6 +1,7 @@
 ---
 title: "Dear Santa"
 date: 2020-12-06 00:00:00
+description: "A 27-year-old's Christmas wish list from San Francisco — Apple Silicon, new clothes, and kitchen essentials — written during the 2020 pandemic."
 ---
 
 Dear Santa,

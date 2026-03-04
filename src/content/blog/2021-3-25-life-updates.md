@@ -1,6 +1,7 @@
 ---
 title: "Life Updates (/now)"
 date: 2021-03-26 17:35:00
+description: "Catching up on life: moving from Atlanta to San Francisco, joining withjoy.com, and a deep dive into my current hardware setup including the M1 MacBook Pro."
 ---
 
 It has been a while since I have posted an update on my life here.

@@ -1,6 +1,7 @@
 ---
 title: "Codespaces"
 date: 2021-11-27
+description: "GitHub Codespaces just left beta — here's my first impression spinning up a dev environment in one click, straight from the browser."
 ---
 
 GitHub Codespaces are finally out of beta and I'm super excited to be able to try them out in my day to day workflow.

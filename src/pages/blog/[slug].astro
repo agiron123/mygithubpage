@@ -21,7 +21,12 @@ const formatter = new Intl.DateTimeFormat("en-US", {
 });
 ---
 
-<BaseLayout title={`${post.data.title} | ${SITE.title}`}>
+<BaseLayout
+  title={`${post.data.title} | ${SITE.title}`}
+  description={post.data.description}
+  type="article"
+  publishedTime={post.data.date.toISOString()}
+>
   <div class="post">
     <div class="post-header">
       <h1 class="post-title">{post.data.title}</h1>

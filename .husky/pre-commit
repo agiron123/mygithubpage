@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Same checks as .github/workflows/astro-docker.yml (PR Checks)
+npm run lint
+npm run format:check
+npm run build
