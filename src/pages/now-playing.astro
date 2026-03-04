@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { SITE } from "../site";
+
+const spotifyUserId = SITE.spotify;
+const nowPlayingWidgetUrl = `https://spotify-github-profile.kittinanx.com/api/view?uid=${spotifyUserId}&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false`;
+---
+
+<BaseLayout title={`Now Playing | ${SITE.title}`}>
+  <div class="post-article">
+    <h1>Now Playing</h1>
+    <p>Here's what I'm currently listening to on Spotify.</p>
+    <a href={`https://open.spotify.com/user/${spotifyUserId}`} target="_blank" rel="noreferrer">
+      <img src={nowPlayingWidgetUrl} alt="Currently playing on Spotify" width="100%" />
+    </a>
+  </div>
+</BaseLayout>

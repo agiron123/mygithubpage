@@ -5,4 +5,5 @@ export const SITE = {
   url: "http://andregiron.me",
   twitter: "agiron_78",
   github: "agiron123",
+  spotify: "agiron123",
 };
