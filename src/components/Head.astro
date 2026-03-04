@@ -1,8 +1,64 @@
 ---
 import { SITE } from "../site";
 
-const { title = SITE.title, description = SITE.description } = Astro.props;
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  type?: "website" | "article";
+  publishedTime?: string;
+}
+
+const {
+  title = SITE.title,
+  description = SITE.description,
+  image = SITE.image,
+  type = "website",
+  publishedTime,
+} = Astro.props;
+
 const canonical = new URL(Astro.url?.pathname ?? "", SITE.url).toString();
+const ogImage = image.startsWith("http") ? image : new URL(image, SITE.url).toString();
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Andre S. Giron",
+  url: SITE.url,
+  email: SITE.email,
+  image: SITE.image,
+  sameAs: [
+    `https://github.com/${SITE.github}`,
+    `https://twitter.com/${SITE.twitter}`,
+  ],
+  jobTitle: "Front-End Web Developer",
+  worksFor: {
+    "@type": "Organization",
+    name: "Self-employed",
+  },
+};
+
+const articleSchema = type === "article"
+  ? {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: title,
+      description: description,
+      image: ogImage,
+      author: {
+        "@type": "Person",
+        name: "Andre S. Giron",
+        url: SITE.url,
+      },
+      publisher: {
+        "@type": "Person",
+        name: "Andre S. Giron",
+        url: SITE.url,
+      },
+      url: canonical,
+      ...(publishedTime ? { datePublished: publishedTime } : {}),
+    }
+  : null;
 ---
 
 <meta charset="utf-8" />
@@ -11,14 +67,39 @@ const canonical = new URL(Astro.url?.pathname ?? "", SITE.url).toString();
 
 <title>{title}</title>
 <meta name="description" content={description} />
+<meta name="author" content="Andre S. Giron" />
 
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+<!-- Canonical & RSS -->
+<link rel="canonical" href={canonical} />
+<link rel="alternate" type="application/rss+xml" title={SITE.title} href="/rss.xml" />
+
+<!-- Open Graph -->
+<meta property="og:type" content={type} />
+<meta property="og:site_name" content={SITE.title} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:alt" content={`${title} – ${SITE.title}`} />
+{publishedTime && <meta property="article:published_time" content={publishedTime} />}
+{type === "article" && <meta property="article:author" content="Andre S. Giron" />}
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content={`@${SITE.twitter}`} />
+<meta name="twitter:creator" content={`@${SITE.twitter}`} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+
+<!-- Stylesheets -->
 <link rel="stylesheet" href="/css/styles.css" />
 <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css" />
 
-<link rel="canonical" href={canonical} />
-<link
-  rel="alternate"
-  type="application/rss+xml"
-  title={SITE.title}
-  href="/rss.xml"
-/>
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+{articleSchema && <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />}
