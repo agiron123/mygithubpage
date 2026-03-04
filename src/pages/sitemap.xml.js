@@ -1,3 +1,4 @@
+/* global Response */
 import { getCollection } from "astro:content";
 import { SITE } from "../site";
 
