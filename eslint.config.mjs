@@ -4,7 +4,13 @@ import eslintConfigPrettier from "eslint-config-prettier";
 
 export default [
   {
-    ignores: ["dist/**", ".astro/**", "node_modules/**", "public/**", "_site/**"],
+    ignores: [
+      "dist/**",
+      ".astro/**",
+      "node_modules/**",
+      "public/**",
+      "_site/**",
+    ],
   },
   js.configs.recommended,
   ...astro.configs.recommended,

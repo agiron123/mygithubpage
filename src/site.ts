@@ -1,6 +1,7 @@
 export const SITE = {
   title: "Andre S. Giron",
-  description: "Front-end web developer based in San Francisco, CA who enjoys writing software and the creative freedom it brings.",
+  description:
+    "Front-end web developer based in San Francisco, CA who enjoys writing software and the creative freedom it brings.",
   email: "agiron123@gmail.com",
   url: "https://andregiron.me",
   twitter: "agiron_78",

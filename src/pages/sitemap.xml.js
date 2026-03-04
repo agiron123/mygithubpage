@@ -5,14 +5,7 @@ import { SITE } from "../site";
 export async function GET() {
   const posts = await getCollection("blog");
 
-  const staticPages = [
-    "",
-    "aboutme",
-    "contact",
-    "projects",
-    "resume",
-    "blog",
-  ];
+  const staticPages = ["", "aboutme", "contact", "projects", "resume", "blog"];
 
   const staticEntries = staticPages.map(
     (page) => `
@@ -20,7 +13,7 @@ export async function GET() {
     <loc>${SITE.url}/${page ? page + "/" : ""}</loc>
     <changefreq>monthly</changefreq>
     <priority>${page === "" ? "1.0" : "0.8"}</priority>
-  </url>`
+  </url>`,
   );
 
   const blogEntries = posts.map(
@@ -30,7 +23,7 @@ export async function GET() {
     <lastmod>${post.data.date.toISOString().split("T")[0]}</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-  </url>`
+  </url>`,
   );
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
