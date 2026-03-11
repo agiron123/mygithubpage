@@ -13,8 +13,8 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@astrojs/rss": "^4.0.0",
-    "astro": "^4.0.0"
+    "@astrojs/rss": "^4.0.17",
+    "astro": "^6.0.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
