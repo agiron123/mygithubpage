@@ -23,7 +23,10 @@ const formatter = new Intl.DateTimeFormat("en-US", {
           <li>
             <span class="post-meta">{formatter.format(post.data.date)}</span>
             <h2>
-              <a class="post-link" href={`/blog/${post.slug}/`}>
+              <a
+                class="post-link"
+                href={`/blog/${post.id.replace(/\.mdx?$/, "")}/`}
+              >
                 {post.data.title}
               </a>
             </h2>
