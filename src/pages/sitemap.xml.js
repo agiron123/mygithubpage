@@ -19,7 +19,7 @@ export async function GET() {
   const blogEntries = posts.map(
     (post) => `
   <url>
-    <loc>${SITE.url}/blog/${post.slug}/</loc>
+    <loc>${SITE.url}/blog/${post.id.replace(/\.mdx?$/, "")}/</loc>
     <lastmod>${post.data.date.toISOString().split("T")[0]}</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
