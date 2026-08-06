@@ -1,15 +1,26 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { SITE } from "../site";
 ---
 
 <BaseLayout title="Contact | Andre S. Giron">
-  <div class="post-article">
-    <h3>Contact Information:</h3>
+  <div class="post-article contact-page">
+    <h1>Let's connect</h1>
     <p>
-      Have something you would like to talk about? Great. I'm all ears. Drop me
-      a line at:
+      Have something you would like to talk about? I’m all ears. Drop me a line
+      at:
     </p>
-    <p>Email: agiron123@gmail.com</p>
-    <p>github: github.com/agiron123</p>
+    <ul class="contact-details">
+      <li>
+        <span class="contact-label">Email</span>
+        <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+      </li>
+      <li>
+        <span class="contact-label">GitHub</span>
+        <a href={`https://github.com/${SITE.github}`}
+          >github.com/{SITE.github}</a
+        >
+      </li>
+    </ul>
   </div>
 </BaseLayout>

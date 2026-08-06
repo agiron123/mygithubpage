@@ -218,6 +218,43 @@
   flex: 1;
 }
 
+.contact-page {
+  h1 {
+    margin-bottom: $spacing-unit;
+    font-size: clamp(30px, 4vw, 42px);
+    line-height: 1.15;
+  }
+
+  > p {
+    max-width: 38rem;
+    font-size: 1.1rem;
+  }
+}
+
+.contact-details {
+  display: grid;
+  gap: 1rem;
+  margin: $spacing-unit 0 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+    align-items: baseline;
+  }
+
+  .contact-label {
+    min-width: 5rem;
+    color: $grey-color;
+    font-family: "DM Sans", $base-font-family;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+}
+
 .home-page {
   max-width: 760px;
   margin: 0 auto;
