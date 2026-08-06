@@ -10,6 +10,17 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .wrapper > div {
+    min-width: 0;
+  }
 }
 
 .site-title {
@@ -30,6 +41,13 @@
   line-height: 56px;
   font-size: 24px;
 
+  .trigger {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 20px;
+  }
+
   .menu-icon {
     display: none;
   }
@@ -40,7 +58,7 @@
 
     // Gaps between nav items, but not on the first one
     &:not(:first-child) {
-      margin-left: 20px;
+      margin-left: 0;
     }
   }
 
