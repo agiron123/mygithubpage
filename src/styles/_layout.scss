@@ -136,7 +136,9 @@
 
 .footer-heading {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
+  color: $text-color;
+  letter-spacing: -0.02em;
   margin-bottom: calc($spacing-unit / 2);
 }
 
@@ -149,6 +151,7 @@
     display: inline-flex;
     align-items: center;
     gap: 8px;
+    text-transform: none;
   }
 }
 
