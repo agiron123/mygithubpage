@@ -212,6 +212,27 @@
   flex: 1;
 }
 
+.home-page {
+  max-width: 760px;
+  margin: 0 auto;
+
+  .title-pic {
+    margin-bottom: $spacing-unit;
+  }
+
+  h2 {
+    margin-bottom: $spacing-unit;
+    font-size: clamp(28px, 4vw, 36px);
+    line-height: 1.15;
+  }
+
+  .content-text h3 {
+    margin-bottom: 1.25rem;
+    font-size: clamp(20px, 2.5vw, 26px);
+    line-height: 1.35;
+  }
+}
+
 .page-heading {
   font-size: 20px;
 }
