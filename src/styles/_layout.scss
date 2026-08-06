@@ -131,10 +131,12 @@
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
   width: 100%;
+  font-family: "DM Sans", $base-font-family;
 }
 
 .footer-heading {
   font-size: 18px;
+  font-weight: 600;
   margin-bottom: calc($spacing-unit / 2);
 }
 
@@ -152,6 +154,7 @@
 
 .footer-col-wrapper {
   font-size: 15px;
+  font-weight: 400;
   color: $grey-color;
   margin-left: calc(-1 * $spacing-unit / 2);
 
