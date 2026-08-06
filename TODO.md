@@ -8,4 +8,5 @@
 - [x] Replace the outdated Twitter destination with a current social profile.
 - [x] Review external links, metadata, and keyboard focus states.
 - [x] Keep direct email contact available from the footer after removing the redundant contact page.
-- [ ] Add a consistent download treatment for the resume PDF.
+- [x] Add a consistent download treatment for the resume PDF.
+- [ ] Explore a modern layout and font system for the resume page.

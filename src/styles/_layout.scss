@@ -255,6 +255,29 @@
   }
 }
 
+.resume-actions {
+  margin-bottom: $spacing-unit;
+}
+
+.resume-download {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.65rem 1rem;
+  color: $background-color;
+  background-color: $brand-color;
+  border-radius: 4px;
+  font-family: "DM Sans", $base-font-family;
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  &:hover,
+  &:focus-visible {
+    color: $background-color;
+    background-color: $grey-color-dark;
+    text-decoration: none;
+  }
+}
+
 .home-page {
   max-width: 760px;
   margin: 0 auto;
