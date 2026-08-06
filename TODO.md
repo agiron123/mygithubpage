@@ -7,5 +7,5 @@
 - [x] Improve the mobile navigation interaction and accessibility.
 - [x] Replace the outdated Twitter destination with a current social profile.
 - [x] Review external links, metadata, and keyboard focus states.
-- [x] Make the contact page actionable with semantic headings and linked contact details.
+- [x] Keep direct email contact available from the footer after removing the redundant contact page.
 - [ ] Add a consistent download treatment for the resume PDF.
