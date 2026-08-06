@@ -50,6 +50,10 @@
 
   .menu-icon {
     display: none;
+    border: 0;
+    color: inherit;
+    background: transparent;
+    cursor: pointer;
   }
 
   .page-link {
@@ -60,6 +64,19 @@
     &:not(:first-child) {
       margin-left: 0;
     }
+
+    &[aria-current="page"] {
+      color: $brand-color;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 0.25em;
+    }
+  }
+
+  &:focus-visible,
+  .page-link:focus-visible {
+    outline: 3px solid $brand-color;
+    outline-offset: 4px;
   }
 
   @include media-query($on-palm) {
@@ -95,7 +112,7 @@
       display: none;
     }
 
-    &:hover .trigger {
+    &.is-open .trigger {
       display: block;
       padding-bottom: 5px;
     }
@@ -187,6 +204,27 @@
 .page-content {
   padding: $spacing-unit 0 calc($spacing-unit / 2) 0;
   flex: 1;
+}
+
+.home-cta {
+  margin-top: $spacing-unit;
+
+  .button {
+    display: inline-block;
+    padding: 10px 18px;
+    color: $background-color;
+    background-color: $brand-color;
+    border-radius: 4px;
+    font-family: $base-font-family;
+    font-weight: 700;
+
+    &:hover,
+    &:focus-visible {
+      color: $background-color;
+      background-color: $grey-color-dark;
+      text-decoration: none;
+    }
+  }
 }
 
 .page-heading {

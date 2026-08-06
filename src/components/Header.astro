@@ -1,9 +1,29 @@
+---
+const links = [
+  { label: "Home", href: "/" },
+  { label: "Resume", href: "/resume/" },
+  { label: "Contact", href: "/contact/" },
+  { label: "Projects", href: "/projects/" },
+  { label: "Blog", href: "/blog/" },
+];
+
+const currentPath = Astro.url.pathname;
+const isCurrent = (href: string) =>
+  href === "/" ? currentPath === href : currentPath.startsWith(href);
+---
+
 <header class="site-header nav-header">
   <div class="wrapper">
     <div>
       <img src="/assets/images/andre_giron_logo.png" alt="Andre Giron logo" />
       <nav class="site-nav">
-        <a href="#" class="menu-icon" aria-label="Toggle navigation">
+        <button
+          type="button"
+          class="menu-icon"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+        >
           <svg viewBox="0 0 18 15">
             <path
               fill="#424242"
@@ -18,16 +38,35 @@
               d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"
             ></path>
           </svg>
-        </a>
+        </button>
 
-        <div class="trigger content-text">
-          <a class="page-link" href="/">Home</a>
-          <a class="page-link" href="/resume/">Resume</a>
-          <a class="page-link" href="/contact/">Contact</a>
-          <a class="page-link" href="/projects/">Projects</a>
-          <a class="page-link" href="/blog/">Blog</a>
+        <div id="primary-navigation" class="trigger content-text">
+          {
+            links.map(({ label, href }) => (
+              <a
+                class="page-link"
+                href={href}
+                aria-current={isCurrent(href) ? "page" : undefined}
+              >
+                {label}
+              </a>
+            ))
+          }
         </div>
       </nav>
     </div>
   </div>
 </header>
+
+<script>
+  const navigation = document.querySelector(".site-nav");
+  const navigationToggle =
+    document.querySelector<HTMLButtonElement>(".menu-icon");
+
+  navigationToggle?.addEventListener("click", () => {
+    if (!navigation) return;
+
+    const isOpen = navigation.classList.toggle("is-open");
+    navigationToggle.setAttribute("aria-expanded", String(isOpen));
+  });
+</script>
