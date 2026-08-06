@@ -10,6 +10,17 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .wrapper > div {
+    min-width: 0;
+  }
 }
 
 .site-title {
@@ -30,8 +41,19 @@
   line-height: 56px;
   font-size: 24px;
 
+  .trigger {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 20px;
+  }
+
   .menu-icon {
     display: none;
+    border: 0;
+    color: inherit;
+    background: transparent;
+    cursor: pointer;
   }
 
   .page-link {
@@ -40,8 +62,21 @@
 
     // Gaps between nav items, but not on the first one
     &:not(:first-child) {
-      margin-left: 20px;
+      margin-left: 0;
     }
+
+    &[aria-current="page"] {
+      color: $brand-color;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 0.25em;
+    }
+  }
+
+  &:focus-visible,
+  .page-link:focus-visible {
+    outline: 3px solid $brand-color;
+    outline-offset: 4px;
   }
 
   @include media-query($on-palm) {
@@ -77,7 +112,7 @@
       display: none;
     }
 
-    &:hover .trigger {
+    &.is-open .trigger {
       display: block;
       padding-bottom: 5px;
     }
@@ -96,10 +131,14 @@
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
   width: 100%;
+  font-family: "DM Sans", $base-font-family;
 }
 
 .footer-heading {
   font-size: 18px;
+  font-weight: 500;
+  color: $text-color;
+  letter-spacing: -0.02em;
   margin-bottom: calc($spacing-unit / 2);
 }
 
@@ -107,10 +146,18 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: none;
+  }
 }
 
 .footer-col-wrapper {
   font-size: 15px;
+  font-weight: 400;
   color: $grey-color;
   margin-left: calc(-1 * $spacing-unit / 2);
 
@@ -168,6 +215,187 @@
  */
 .page-content {
   padding: $spacing-unit 0 calc($spacing-unit / 2) 0;
+  flex: 1;
+}
+
+.contact-page {
+  h1 {
+    margin-bottom: $spacing-unit;
+    font-size: clamp(30px, 4vw, 42px);
+    line-height: 1.15;
+  }
+
+  > p {
+    max-width: 38rem;
+    font-size: 1.1rem;
+  }
+}
+
+.contact-details {
+  display: grid;
+  gap: 1rem;
+  margin: $spacing-unit 0 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+    align-items: baseline;
+  }
+
+  .contact-label {
+    min-width: 5rem;
+    color: $grey-color;
+    font-family: "DM Sans", $base-font-family;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+}
+
+.resume-actions {
+  margin-bottom: $spacing-unit;
+}
+
+.resume-download {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.65rem 1rem;
+  color: $background-color;
+  background-color: $brand-color;
+  border-radius: 4px;
+  font-family: "DM Sans", $base-font-family;
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  &:hover,
+  &:focus-visible {
+    color: $background-color;
+    background-color: $grey-color-dark;
+    text-decoration: none;
+  }
+}
+
+.resume-page {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: "DM Sans", $base-font-family;
+
+  .resume-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: flex-end;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid $grey-color-light;
+  margin-bottom: 2.5rem;
+
+  h1 {
+    margin: 0.25rem 0 0.75rem;
+    font-size: clamp(2.5rem, 7vw, 4.5rem);
+    line-height: 0.98;
+    letter-spacing: -0.06em;
+    font-weight: 600;
+  }
+}
+
+.resume-kicker {
+  margin: 0;
+  color: $brand-color;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.resume-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  margin: 0;
+  color: $grey-color;
+  font-size: 0.95rem;
+}
+
+.resume-section {
+  margin-bottom: 3rem;
+
+  > h2 {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.65rem;
+    border-bottom: 2px solid $text-color;
+    font-size: 1.65rem;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+  }
+
+  > p {
+    line-height: 1.6;
+  }
+
+  > p > b {
+    font-weight: 600;
+  }
+
+  > p:has(> b:only-child) {
+    margin-top: 1.75rem;
+    font-size: 1.08rem;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+  }
+
+  > ul {
+    margin-bottom: 1.25rem;
+    padding-left: 1.25rem;
+
+    li {
+      margin-bottom: 0.45rem;
+      font-size: 1.08rem;
+      line-height: 1.6;
+    }
+  }
+}
+
+@include media-query($on-palm) {
+  .resume-page {
+    .resume-actions {
+      justify-content: flex-start;
+    }
+  }
+
+  .resume-header {
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.home-page {
+  max-width: 760px;
+  margin: 0 auto;
+
+  .title-pic {
+    margin-bottom: $spacing-unit;
+  }
+
+  h2 {
+    margin-bottom: $spacing-unit;
+    font-size: clamp(28px, 4vw, 36px);
+    line-height: 1.15;
+  }
+
+  .content-text h3 {
+    margin-bottom: 1.25rem;
+    font-size: clamp(20px, 2.5vw, 26px);
+    line-height: 1.35;
+  }
 }
 
 .page-heading {

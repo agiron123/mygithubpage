@@ -9,8 +9,18 @@ import { SITE } from "../site";
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="footer-text">{SITE.title}</li>
-          <li><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
+          <li>
+            <a href={`mailto:${SITE.email}`}>
+              <span class="icon icon--email" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M2.5 5.75A2.75 2.75 0 0 1 5.25 3h13.5a2.75 2.75 0 0 1 2.75 2.75v12.5A2.75 2.75 0 0 1 18.75 21H5.25a2.75 2.75 0 0 1-2.75-2.75V5.75Zm2.75-.25a.25.25 0 0 0-.15.45l6.31 4.73a1 1 0 0 0 1.18 0l6.31-4.73a.25.25 0 0 0-.15-.45H5.25Zm14.75 2.7-6.51 4.88a2.5 2.5 0 0 1-2.98 0L4 8.2v10.05c0 .69.56 1.25 1.25 1.25h13.5c.69 0 1.25-.56 1.25-1.25V8.2Z"
+                  ></path>
+                </svg>
+              </span>
+              {SITE.email}
+            </a>
+          </li>
         </ul>
       </div>
 
@@ -38,7 +48,7 @@ import { SITE } from "../site";
           {
             SITE.twitter ? (
               <li>
-                <a href={`https://twitter.com/${SITE.twitter}`}>
+                <a href={`https://x.com/${SITE.twitter}`}>
                   <span class="icon icon--twitter">
                     <svg viewBox="0 0 16 16">
                       <path
@@ -62,7 +72,7 @@ import { SITE } from "../site";
       </div>
 
       <div class="footer-col footer-col-3">
-        <p class="footer-text">{SITE.description}</p>
+        <p class="footer-text">Made with ❤️ in San Francisco</p>
       </div>
     </div>
   </div>

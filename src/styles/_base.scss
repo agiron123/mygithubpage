@@ -35,6 +35,9 @@ body {
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /**
@@ -118,6 +121,17 @@ a {
     color: $text-color;
     text-decoration: underline;
   }
+
+  &:focus-visible,
+  &:focus-visible:hover {
+    outline: 3px solid $brand-color;
+    outline-offset: 4px;
+  }
+}
+
+button:focus-visible {
+  outline: 3px solid $brand-color;
+  outline-offset: 4px;
 }
 
 /**

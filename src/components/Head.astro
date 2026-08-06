@@ -31,7 +31,7 @@ const personSchema = {
   image: SITE.image,
   sameAs: [
     `https://github.com/${SITE.github}`,
-    `https://twitter.com/${SITE.twitter}`,
+    `https://x.com/${SITE.twitter}`,
   ],
   jobTitle: "Front-End Web Developer",
   worksFor: {
@@ -75,6 +75,14 @@ const articleSchema =
 <!-- Favicon -->
 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+<!-- Footer typography -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap"
+  rel="stylesheet"
+/>
 
 <!-- Canonical & RSS -->
 <link rel="canonical" href={canonical} />
