@@ -345,12 +345,20 @@
     font-weight: 600;
   }
 
+  > p:has(> b:only-child) {
+    margin-top: 1.75rem;
+    font-size: 1.08rem;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+  }
+
   > ul {
     margin-bottom: 1.25rem;
     padding-left: 1.25rem;
 
     li {
       margin-bottom: 0.45rem;
+      font-size: 1.08rem;
       line-height: 1.6;
     }
   }
