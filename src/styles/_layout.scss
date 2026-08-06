@@ -206,27 +206,6 @@
   flex: 1;
 }
 
-.home-cta {
-  margin-top: $spacing-unit;
-
-  .button {
-    display: inline-block;
-    padding: 10px 18px;
-    color: $background-color;
-    background-color: $brand-color;
-    border-radius: 4px;
-    font-family: $base-font-family;
-    font-weight: 700;
-
-    &:hover,
-    &:focus-visible {
-      color: $background-color;
-      background-color: $grey-color-dark;
-      text-decoration: none;
-    }
-  }
-}
-
 .page-heading {
   font-size: 20px;
 }
