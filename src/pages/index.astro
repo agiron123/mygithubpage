@@ -1,14 +1,21 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { SITE } from "../site";
+import { Image } from "astro:assets";
+
+const profileImage =
+  "https://s.gravatar.com/avatar/bdde06829b728c2c9ca7b282e4969337?s=225";
 ---
 
 <BaseLayout title={SITE.title}>
   <div class="home-page">
-    <img
+    <Image
       class="img-circle title-pic"
-      src="https://s.gravatar.com/avatar/bdde06829b728c2c9ca7b282e4969337?s=225"
+      src={profileImage}
       alt="Andre Giron"
+      width={225}
+      height={225}
+      format="webp"
     />
     <h2>Hi there! I'm Andre!</h2>
     <div class="content-text">
