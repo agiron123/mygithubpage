@@ -107,3 +107,6 @@ vendor/
 node_modules/
 .astro/
 dist/
+
+# Cursor
+.cursor/
