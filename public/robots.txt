@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://andregiron.me/sitemap.xml
+# LLM-friendly site overview: https://andregiron.me/llms.txt
