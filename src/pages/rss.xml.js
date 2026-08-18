@@ -8,8 +8,7 @@ export async function GET(context) {
   );
 
   const items = posts.map((post) => {
-    const slug = post.id.replace(/\.mdx?$/, "");
-    const link = `${context.site}blog/${slug}/`;
+    const link = `${context.site}blog/${post.id}/`;
     return `
     <item>
       <title><![CDATA[${post.data.title}]]></title>
