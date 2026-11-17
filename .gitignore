@@ -107,6 +107,8 @@ vendor/
 node_modules/
 .astro/
 dist/
+yarn-debug.log*
+yarn-error.log*
 
 # Cursor
 .cursor/

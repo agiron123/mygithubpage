@@ -5,20 +5,20 @@ This is my personal website, now built with Astro.
 ### Prerequisites
 
 - Node.js 18+ (or 20+ recommended)
-- npm
+- Yarn 1.22.22 (`corepack enable` uses the version pinned in `package.json`)
 
 ### Quick start
 
 1. Install dependencies:
 
    ```bash
-   npm install
+   yarn install
    ```
 
 2. Start the dev server:
 
    ```bash
-   npm run dev -- --port 4001
+   yarn dev --port 4001
    ```
 
 3. Open your browser and navigate to `http://localhost:4001`
