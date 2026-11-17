@@ -1,0 +1,14 @@
+---
+import { aboutBlocks } from "../agent/documents.ts";
+import Blocks from "../components/Blocks.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="About | Andre S. Giron"
+  description="Andre S. Giron is a front-end web developer in San Francisco. This page is his current biography, work history, and a guide to the rest of the site."
+>
+  <div class="text-page">
+    <Blocks blocks={aboutBlocks} />
+  </div>
+</BaseLayout>

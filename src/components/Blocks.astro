@@ -1,0 +1,55 @@
+---
+import type { Block, Inline } from "../agent/blocks.ts";
+
+interface Props {
+  blocks?: Block[];
+  inlines?: Inline[];
+}
+
+const { blocks = [], inlines = [] } = Astro.props;
+---
+
+{
+  inlines.map((node) => {
+    switch (node.type) {
+      case "text":
+        return node.text;
+      case "link":
+        return <a href={node.href}>{node.text}</a>;
+      default: {
+        const unexpected: never = node;
+        return unexpected;
+      }
+    }
+  })
+}
+{
+  blocks.map((block) => {
+    switch (block.type) {
+      case "h1":
+        return <h1>{block.text}</h1>;
+      case "h2":
+        return <h2>{block.text}</h2>;
+      case "p":
+        return (
+          <p>
+            <Astro.self inlines={block.inlines} />
+          </p>
+        );
+      case "ul":
+        return (
+          <ul>
+            {block.items.map((item) => (
+              <li>
+                <Astro.self inlines={item} />
+              </li>
+            ))}
+          </ul>
+        );
+      default: {
+        const unexpected: never = block;
+        return unexpected;
+      }
+    }
+  })
+}

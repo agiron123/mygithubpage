@@ -1,0 +1,28 @@
+---
+import { contactBlocks, contactPoints } from "../agent/documents.ts";
+import Blocks from "../components/Blocks.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Contact | Andre S. Giron"
+  description="Email Andre S. Giron at agiron123@gmail.com. This contact page is the way to reach him about his work or this site."
+>
+  <div class="contact-page">
+    <Blocks blocks={contactBlocks} />
+    <ul class="contact-details">
+      {
+        contactPoints.map((point) => (
+          <li>
+            <span class="contact-label">{point.label}</span>
+            {point.href ? (
+              <a href={point.href}>{point.text}</a>
+            ) : (
+              <span>{point.text}</span>
+            )}
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</BaseLayout>

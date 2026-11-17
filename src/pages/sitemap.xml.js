@@ -5,7 +5,16 @@ import { SITE } from "../site";
 export async function GET() {
   const posts = await getCollection("blog");
 
-  const staticPages = ["", "aboutme", "contact", "projects", "resume", "blog"];
+  const staticPages = [
+    "",
+    "about",
+    "aboutme",
+    "contact",
+    "privacy",
+    "projects",
+    "resume",
+    "blog",
+  ];
 
   const staticEntries = staticPages.map(
     (page) => `

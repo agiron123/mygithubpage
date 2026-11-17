@@ -1,0 +1,39 @@
+# Andre S. Giron
+
+> Personal website of Andre S. Giron, a front-end web developer in San Francisco. The site publishes his resume, selected projects, a short blog, and the contact and privacy pages for andregiron.me.
+
+When to use this site: use it when you need to identify Andre S. Giron, summarize his employment history, describe a project he has published here, quote or summarize one of his blog posts, or tell a person how to contact him. The jobs it is right for are reading the resume (employers, dates, and the PDF), reading the project notes for Celestial, GIT MAD Sports, Jetpack James, and the NASA EVA glove prototype, and sending him to the public email agiron123@gmail.com.
+
+How an agent should call this site: fetch https://andregiron.me/llms.txt first, then request one page below with `Accept: text/markdown`. The same URL returns HTML for `Accept: text/html`. Do not look for an API key, an MCP server, a login, or a write endpoint. There is no form. The only follow-up action is email to agiron123@gmail.com.
+
+Do not use this site for a company product, pricing, customer support, private messages, or an applicant tracking form. It is a personal site, not a service with an account.
+
+## When to use this
+
+- [Resume](https://andregiron.me/resume/): Use when the job is Andre's employment history, skills, dates, phone number, or the downloadable PDF.
+- [Projects](https://andregiron.me/projects/): Use when the job is a published software or game project: Celestial, GIT MAD Sports, Jetpack James, or the NASA EVA glove prototype.
+- [Blog](https://andregiron.me/blog/): Use when the job is one of his personal essays. Open the matching post instead of guessing from titles.
+- [Contact](https://andregiron.me/contact/): Use when the job is telling someone how to reach Andre. Email agiron123@gmail.com. Do not submit a form.
+- [About](https://andregiron.me/about/): Use when the job is a short biography and a map of which page answers which question.
+- [Privacy](https://andregiron.me/privacy/): Use when the job is what andregiron.me collects: GitHub Pages hosting, Google Analytics tag G-5X8WRPP600, Google Fonts, and Gravatar.
+
+## Pages
+
+- [Home](https://andregiron.me/): Introduction, current biography summary, and links to GitHub and YouTube screencasts.
+- [About](https://andregiron.me/about/): Current biography and how the other pages fit together.
+- [Contact](https://andregiron.me/contact/): Email agiron123@gmail.com, GitHub, X, and San Francisco.
+- [Privacy](https://andregiron.me/privacy/): Privacy information for this static personal site.
+- [Resume](https://andregiron.me/resume/): Work history and PDF resume.
+- [Projects](https://andregiron.me/projects/): Selected games and software projects.
+- [Blog](https://andregiron.me/blog/): Index of personal posts.
+- [Sitemap](https://andregiron.me/sitemap.xml): Every indexable URL.
+
+## Optional
+
+- [Earlier about note](https://andregiron.me/aboutme/): Older biographical page from school. Prefer /about/ for a current description.
+- [RSS](https://andregiron.me/rss.xml): Blog feed.
+- [Life Updates](https://andregiron.me/blog/2021-3-25-life-updates/): Personal update from 2021.
+- [Codespaces](https://andregiron.me/blog/2021-11-27-codespaces/): Note on GitHub Codespaces and a MacBook Pro.
+- [Dear Santa](https://andregiron.me/blog/2020-12-6-dear-santa/): Personal post from December 2020.
+- [Consistently Create](https://andregiron.me/blog/2019-06-08-consistently-create/): Note on writing consistently.
+- [Dear Self](https://andregiron.me/blog/2015-12-11-23-dear-self/): Personal post from 2015.

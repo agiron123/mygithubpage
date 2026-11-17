@@ -134,6 +134,13 @@
   font-family: "DM Sans", $base-font-family;
 }
 
+.footer-trust {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  margin-top: 0.75rem;
+}
+
 .footer-heading {
   font-size: 18px;
   font-weight: 500;
@@ -218,16 +225,25 @@
   flex: 1;
 }
 
-.contact-page {
+.contact-page,
+.text-page {
   h1 {
     margin-bottom: $spacing-unit;
     font-size: clamp(30px, 4vw, 42px);
     line-height: 1.15;
   }
 
-  > p {
-    max-width: 38rem;
-    font-size: 1.1rem;
+  > p,
+  > ul {
+    max-width: 40rem;
+    font-size: 1.05rem;
+    line-height: 1.65;
+  }
+
+  h2 {
+    margin-top: 1.5rem;
+    font-size: 1.35rem;
+    line-height: 1.3;
   }
 }
 
@@ -385,16 +401,22 @@
     margin-bottom: $spacing-unit;
   }
 
-  h2 {
+  h1 {
     margin-bottom: $spacing-unit;
     font-size: clamp(28px, 4vw, 36px);
     line-height: 1.15;
   }
 
-  .content-text h3 {
+  .content-text h2 {
     margin-bottom: 1.25rem;
     font-size: clamp(20px, 2.5vw, 26px);
     line-height: 1.35;
+  }
+
+  .home-summary p {
+    max-width: 40rem;
+    font-size: 1.05rem;
+    line-height: 1.65;
   }
 }
 

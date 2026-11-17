@@ -1,0 +1,23 @@
+---
+import { notFoundExplanation, notFoundLinks } from "../agent/documents.ts";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Page not found | Andre S. Giron"
+  description="That page is not on andregiron.me. Use the site guide, sitemap, or home page to continue."
+>
+  <div class="text-page">
+    <h1>Page not found</h1>
+    <p>{notFoundExplanation}</p>
+    <ul>
+      {
+        notFoundLinks.map((entry) => (
+          <li>
+            <a href={entry.href}>{entry.text}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</BaseLayout>
